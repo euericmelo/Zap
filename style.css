@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+margin:0;
+padding:0;
+top:0;
+text-direction:none;
+font-family: "Roboto", sans-serif;
+}
+body{
+background-color:black;
+color:white;
+max-width:400px;
+}
+.pontos a{
+background-color:rgb(36,80,80,0.5);
+padding:6px;
+margin:8px;
+border-radius:50%;
+}
+.navbar a{
+background-color:rgb(36,80,80,0.5);
+text-decoration:none;
+color:white;
+width:30px;
+padding: 3px 8px;
+border-radius:20px;
+gap:6px;
+margin:3px;
+font-size:18px;
+border: 0.1px solid rgb(5,40,0);
+font-weight:600;
+}
+.navbar{
+padding:10px;
+width:100%;
+}
+nav a:hover{
+color:white;
+transition: 0.5s ease;
+} 
+a{
+text-decoration:none;
+color:white;
+}
+.barra1{
+background-color:black;
+display:flex;
+width:100%;
+gap:8px;
+align-items:center;
+position:fixed;
+padding-top:6px;
+}
+.navbar2{
+display:flex;
+align-items:center;
+gap:10px;
+position:fixed;
+padding-top:660px;
+}
+.icon{
+display:flex;
+align-items:center;
+text-align:center;
+font-size:11px;
+}
+.icon a{
+color:#808080;
+}
+.conversas{
+display:flex;
+padding:8px;
+}
+.conversas img{
+background-color:white;
+align-items:center;
+border-radius:50%;
+width:60px;
+}
+.nome-pessoa{
+margin:8px;
+font-size:22px;
+}
+.barrap{
+display:flex;
+align-items:center;
+}
+.barrap input{
+background-color:rgb(36,80,80,0.5);
+width:360px;
+padding:8px;
+border-radius:10px;
+margin:8px;
+display:flex;
+font-size:16px;
+font-weight:500;
+}
+.direitos{
+font-size:10px;
+text-align:center;
+}
+.cripto{
+color: rgb(5,220,5);
+}
+.tprincipal{
+padding-top:60px;
+font-size:40px;
+margin:8px;
+font-weight:900;
+}
+.camera{
+width:10px;
+}
+.mais{
+background-color: rgb(5,220,5,0.6);
+padding:6px;
+color:black;
+border-radius:50%;
+font-size:20px;
+}
+.horas{
+padding-left:200px;
+opacity:0.6;
+font-weight:600;
+}
+.cam-mais{
+display:flex;
+padding-left:280px;
+gap:10px;
+}
+.hr{
+opacity:0.2;
+margin:16px;
+}
